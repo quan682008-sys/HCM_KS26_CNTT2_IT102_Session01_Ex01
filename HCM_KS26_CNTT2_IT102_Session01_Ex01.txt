@@ -1,0 +1,5 @@
+﻿Phần 1 (Bóc tách nhận thức sai): Dựa vào Mục 2.1 Lesson 01, hãy chỉ ra 2 điểm sai lầm trong báo cáo của Nam. Trích dẫn thuật ngữ "Next Token Prediction" và "Pre-training" từ bài đọc để giải thích tại sao LLM lại tính sai phép cộng trên.
+1. Hiểu sai cách AI hoạt động: Nam nghĩ AI giống máy tính bỏ túi nên phải tính đúng 100%. Thực tế, LLM sử dụng Next Token Prediction để dự đoán token tiếp theo dựa trên ngữ cảnh.
+2. Nghĩ AI nhiều tham số thì không thể sai: AI được học từ lượng dữ liệu lớn trong giai đoạn Pre-training, nhưng điều đó không đảm bảo mọi phép tính đều chính xác. Vì vậy, AI vẫn có thể đưa ra kết quả sai mà không phải do máy chủ bị hỏng.
+Phần 2 (Sửa lỗi & Prompting): Đề xuất câu lệnh (Prompt) chuẩn giúp ChatGPT kích hoạt công cụ bổ trợ (ví dụ: Code Interpreter / Python) hoặc yêu cầu AI suy luận để cho ra kết quả số học chính xác 100%.
+Prompt đề xuất:Bạn hãy sử dụng Python để tính phép cộng 15480 + 28750. Kiểm tra lại kết quả trước khi trả lời, không tự dự đoán đáp án.
